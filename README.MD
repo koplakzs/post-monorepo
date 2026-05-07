@@ -8,8 +8,8 @@ Repositori ini adalah implementasi sistem manajemen postingan berbasis monorepo 
 
 | Stack        | Teknologi                                                                               |
 | ------------ | --------------------------------------------------------------------------------------- |
-| **Frontend** | Next.js 15 (App Router), Tailwind CSS, DaisyUI, TanStack Query v5, Zod, React Hook Form |
-| **Backend**  | Laravel 11, RESTful API, MySQL                                                          |
+| **Frontend** | Next.js 16 (App Router), Tailwind CSS, DaisyUI, TanStack Query, Zod, React Hook Form    |
+| **Backend**  | Laravel 13, RESTful API, MySQL                                                          |
 | **Auth**     | Cookie-based Authentication                                                             |
 
 ---
@@ -81,7 +81,7 @@ Proyek ini menggunakan pendekatan monorepo untuk menyatukan ekosistem frontend d
 
 ### 2. State Management & Data Fetching
 
-Kami menggunakan **TanStack Query (React Query) v5**:
+Kami menggunakan **TanStack Query (React Query)**:
 
 - **Query Keys:** Menggunakan array key dinamis seperti `['posts', { page }]`. Saat halaman berubah, React Query otomatis melakukan fetch ulang.
 - **Invalidasi Otomatis:** Setiap kali operasi `POST`, `PUT`, atau `DELETE` berhasil, sistem memanggil `queryClient.invalidateQueries` untuk menyinkronkan data UI dengan server tanpa reload.
@@ -105,5 +105,3 @@ Sistem navigasi menggunakan metadata dari Laravel API (`currentPage`, `lastPage`
 ---
 
 ## 🛡️ Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
