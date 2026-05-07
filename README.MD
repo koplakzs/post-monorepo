@@ -24,7 +24,7 @@ Pastikan Anda memiliki server database MySQL yang berjalan dan buatlah satu data
 
 1.  **Masuk ke direktori backend:**
     ```bash
-    cd laravel
+    cd backend
     ```
 2.  **Instal dependensi Composer:**
     ```bash
@@ -54,7 +54,7 @@ Pastikan Anda memiliki server database MySQL yang berjalan dan buatlah satu data
 
 1.  **Masuk ke direktori frontend:**
     ```bash
-    cd next
+    cd frontend
     ```
 2.  **Instal dependensi NPM:**
     ```bash
