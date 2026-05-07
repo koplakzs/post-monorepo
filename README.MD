@@ -63,7 +63,7 @@ Pastikan Anda memiliki server database MySQL yang berjalan dan buatlah satu data
 3.  **Konfigurasi Environment:**
     Buat file `.env` di root folder `next`:
     ```env
-    NEXT_PUBLIC_API_URL=[http://127.0.0.1:8000/api](http://127.0.0.1:8000/api)
+    NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api
     ```
 4.  **Jalankan Server Development:**
     ```bash
